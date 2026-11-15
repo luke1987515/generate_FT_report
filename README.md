@@ -60,15 +60,17 @@ AIC DQA 的功能性測試報告（FT report）目前半手工產出：
 
 | # | 決策 | 建議 | Issue |
 |---|---|---|---|
-| D1 | 記錄介面：Excel / Web UI / Hybrid | Excel | 見 M0 |
-| D2 | 測項 catalog 來源：挖 449 份 vs 手工 | 挖掘＋使用者審訂 | 見 M0 |
-| D3 | items 表 layout：單 sheet＋章節欄 vs 一章一 sheet | 單 sheet＋章節欄 | 見 M0 |
-| D4 | Fail 是否強制填觀察值＋證據 | 是 | 見 M0 |
-| D5 | EC 沿革（T4）格式：半結構化行 vs 原始文字貼上 | 半結構化行 | 見 M0 |
-| D6 | version（A17）自動建議＝index 該 PN 最大值＋1 | 是，可覆寫 | 見 M0 |
-| D7 | base 模板：tokenize 某份 2026 真實報告 vs 改 2023 模板 | tokenize 2026 真實報告 | 見 M0 |
-| D8 | index xls 更新：工具輸出該行 vs 授權寫入 | 輸出該行，使用者手貼 | 見 M0 |
-| D9 | 產出目標＋PDF：docx 放專案資料夾；Word COM 自動轉 PDF | docx 為主，PDF 可選 | 見 M0 |
+| D1 | 記錄介面：Excel / Web UI / Hybrid | Excel | [#1](https://github.com/luke1987515/generate_FT_report/issues/1) |
+| D2 | 測項 catalog 來源：挖 449 份 vs 手工 | 挖掘＋使用者審訂 | [#2](https://github.com/luke1987515/generate_FT_report/issues/2) |
+| D3 | items 表 layout：單 sheet＋章節欄 vs 一章一 sheet | 單 sheet＋章節欄 | [#3](https://github.com/luke1987515/generate_FT_report/issues/3) |
+| D4 | Fail 是否強制填觀察值＋證據 | 是 | [#4](https://github.com/luke1987515/generate_FT_report/issues/4) |
+| D5 | EC 沿革（T4）格式：半結構化行 vs 原始文字貼上 | 半結構化行 | [#5](https://github.com/luke1987515/generate_FT_report/issues/5) |
+| D6 | version（A17）自動建議＝index 該 PN 最大值＋1 | 是，可覆寫 | [#6](https://github.com/luke1987515/generate_FT_report/issues/6) |
+| D7 | base 模板：tokenize 某份 2026 真實報告 vs 改 2023 模板 | tokenize 2026 真實報告 | [#7](https://github.com/luke1987515/generate_FT_report/issues/7) |
+| D8 | index xls 更新：工具輸出該行 vs 授權寫入 | 輸出該行，使用者手貼 | [#8](https://github.com/luke1987515/generate_FT_report/issues/8) |
+| D9 | 產出目標＋PDF：docx 放專案資料夾；Word COM 自動轉 PDF | docx 為主，PDF 可選 | [#9](https://github.com/luke1987515/generate_FT_report/issues/9) |
+
+Umbrella：[#10 M0: 閉 D1–D9](https://github.com/luke1987515/generate_FT_report/issues/10)
 
 ## 資料模型（討論中，隨 D1–D9 定案更新）
 
