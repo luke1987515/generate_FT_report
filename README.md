@@ -67,7 +67,7 @@ AIC DQA 的功能性測試報告（FT report）目前半手工產出：
 | D5 | EC 沿革（T4）格式：半結構化行 vs 原始文字貼上 | ~~半結構化行~~ ✅ **定案：半結構化行**（`類型｜檔名｜版本｜日期｜changelog`，可跨 EC 累積） | [#5](https://github.com/luke1987515/generate_FT_report/issues/5)（已關） |
 | D6 | version（A17）自動建議＝index 該 PN 最大值＋1 | ~~自動預填＋可覆寫~~ ✅ **定案：自動預填＋可覆寫**（DocNo 流水號同邏輯） | [#6](https://github.com/luke1987515/generate_FT_report/issues/6)（已關） |
 | D7 | base 模板：tokenize 某份 2026 真實報告 vs 改 2023 模板 | ~~tokenize 2026 真實報告~~ ✅ **定案：base＝`FC260918A16...EC-A16.docx`**（章節最全；M2 tokenize 收進 `templates/`） | [#7](https://github.com/luke1987515/generate_FT_report/issues/7)（已關） |
-| D8 | index xls 更新：工具輸出該行 vs 授權寫入 | 輸出該行，使用者手貼 | [#8](https://github.com/luke1987515/generate_FT_report/issues/8) |
+| D8 | index xls 更新：工具輸出該行 vs 授權寫入 | ~~輸出該行~~ ✅ **定案：工具輸出該行（Tab 分隔），使用者手貼**（守只讀紅線） | [#8](https://github.com/luke1987515/generate_FT_report/issues/8)（已關） |
 | D9 | 產出目標＋PDF：docx 放專案資料夾；Word COM 自動轉 PDF | docx 為主，PDF 可選 | [#9](https://github.com/luke1987515/generate_FT_report/issues/9) |
 
 Umbrella：[#10 M0: 閉 D1–D9](https://github.com/luke1987515/generate_FT_report/issues/10)
