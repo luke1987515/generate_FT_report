@@ -60,7 +60,7 @@ AIC DQA 的功能性測試報告（FT report）目前半手工產出：
 
 | # | 決策 | 建議 | Issue |
 |---|---|---|---|
-| D1 | 記錄介面：Excel / Web UI / Hybrid | Excel | [#1](https://github.com/luke1987515/generate_FT_report/issues/1) |
+| D1 | 記錄介面：Excel / Web UI / Hybrid | ~~Excel~~ ✅ **定案：Excel（v1）**，GUI 路徑保留（[#11](https://github.com/luke1987515/generate_FT_report/issues/11) M5） | [#1](https://github.com/luke1987515/generate_FT_report/issues/1)（已關） |
 | D2 | 測項 catalog 來源：挖 449 份 vs 手工 | 挖掘＋使用者審訂 | [#2](https://github.com/luke1987515/generate_FT_report/issues/2) |
 | D3 | items 表 layout：單 sheet＋章節欄 vs 一章一 sheet | 單 sheet＋章節欄 | [#3](https://github.com/luke1987515/generate_FT_report/issues/3) |
 | D4 | Fail 是否強制填觀察值＋證據 | 是 | [#4](https://github.com/luke1987515/generate_FT_report/issues/4) |
@@ -97,6 +97,7 @@ prototype row 複製）＋章節去留（有適用 row 才出章、自動重編�
 - **M2** pipeline v1：workbook → docx（固定骨架＋動態表）
 - **M3** 第一份真實 EC 報告產出＋與手工作業對齊（差異→issue→修→commit→skill 更新）
 - **M4** 每週 cron：掃 `dqa-report` 新最終報告 → 結構分析 → 對 catalog → 開 issue → 摘要推 Telegram
+- **M5** GUI 前端（不阻塞 M1–M4）：v1.x Tkinter 單窗口（[#11](https://github.com/luke1987515/generate_FT_report/issues/11)）→ v2 Web
 
 ## 接手指南（human / agent）
 
