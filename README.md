@@ -62,7 +62,7 @@ AIC DQA 的功能性測試報告（FT report）目前半手工產出：
 |---|---|---|---|
 | D1 | 記錄介面：Excel / Web UI / Hybrid | ~~Excel~~ ✅ **定案：Excel（v1）**，GUI 路徑保留（[#11](https://github.com/luke1987515/generate_FT_report/issues/11) M5） | [#1](https://github.com/luke1987515/generate_FT_report/issues/1)（已關） |
 | D2 | 測項 catalog 來源：挖 449 份 vs 手工 | ~~挖掘＋審訂~~ ✅ **定案：挖掘（2023 xlsx superset＋449 PDF）＋使用者審訂** | [#2](https://github.com/luke1987515/generate_FT_report/issues/2)（已關） |
-| D3 | items 表 layout：單 sheet＋章節欄 vs 一章一 sheet | 單 sheet＋章節欄 | [#3](https://github.com/luke1987515/generate_FT_report/issues/3) |
+| D3 | items 表 layout：單 sheet＋章節欄 vs 一章一 sheet | ~~單 sheet＋章節欄~~ ✅ **定案：單 sheet＋章節欄**（同現行 2023 xlsx 習慣） | [#3](https://github.com/luke1987515/generate_FT_report/issues/3)（已關） |
 | D4 | Fail 是否強制填觀察值＋證據 | 是 | [#4](https://github.com/luke1987515/generate_FT_report/issues/4) |
 | D5 | EC 沿革（T4）格式：半結構化行 vs 原始文字貼上 | 半結構化行 | [#5](https://github.com/luke1987515/generate_FT_report/issues/5) |
 | D6 | version（A17）自動建議＝index 該 PN 最大值＋1 | 是，可覆寫 | [#6](https://github.com/luke1987515/generate_FT_report/issues/6) |
