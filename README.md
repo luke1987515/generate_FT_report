@@ -23,14 +23,15 @@ AIC DQA 的功能性測試報告（FT report）目前半手工產出：
 目標：**測試人員每 EC 只填 3 欄（結果 / 觀察值 / 證據），其餘全部預載，
 報告 docx 由 pipeline 產出。**
 
-## 現況（2026-11-14）
+## 現況（2026-11-15）
 
 - ✅ 地面真值分析完成（詳 `docs/`）
-- ⬜ 設計決策 D1–D9 待拍板（GitHub issues，milestone M0）
-- ⬜ 測項 catalog 挖掘（M1）
+- ✅ **M0 完成：D1–D9 全數定案**（#1–#9 已關，摘要見上表）
+- ⬜ 測項 catalog 挖掘（M1）← **下一步**
 - ⬜ pipeline v1（M2）
 - ⬜ 第一份真實 EC 報告對齊（M3）
 - ⬜ 每週新報告對帳 cron（M4）
+- ⬜ GUI 前端（M5，不阻塞）
 
 ## 環境與存取
 
@@ -68,7 +69,7 @@ AIC DQA 的功能性測試報告（FT report）目前半手工產出：
 | D6 | version（A17）自動建議＝index 該 PN 最大值＋1 | ~~自動預填＋可覆寫~~ ✅ **定案：自動預填＋可覆寫**（DocNo 流水號同邏輯） | [#6](https://github.com/luke1987515/generate_FT_report/issues/6)（已關） |
 | D7 | base 模板：tokenize 某份 2026 真實報告 vs 改 2023 模板 | ~~tokenize 2026 真實報告~~ ✅ **定案：base＝`FC260918A16...EC-A16.docx`**（章節最全；M2 tokenize 收進 `templates/`） | [#7](https://github.com/luke1987515/generate_FT_report/issues/7)（已關） |
 | D8 | index xls 更新：工具輸出該行 vs 授權寫入 | ~~輸出該行~~ ✅ **定案：工具輸出該行（Tab 分隔），使用者手貼**（守只讀紅線） | [#8](https://github.com/luke1987515/generate_FT_report/issues/8)（已關） |
-| D9 | 產出目標＋PDF：docx 放專案資料夾；Word COM 自動轉 PDF | docx 為主，PDF 可選 | [#9](https://github.com/luke1987515/generate_FT_report/issues/9) |
+| D9 | 產出目標＋PDF：docx 放專案資料夾；Word COM 自動轉 PDF | ~~本機 docx＋PDF 可選~~ ✅ **定案：docx 產出本機（pipeline 不碰伺服器），`--pdf` Word COM 可選** | [#9](https://github.com/luke1987515/generate_FT_report/issues/9)（已關） |
 
 Umbrella：[#10 M0: 閉 D1–D9](https://github.com/luke1987515/generate_FT_report/issues/10)
 
